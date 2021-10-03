@@ -96,6 +96,6 @@ If you have not noticed by now, in yed functions in c files use snake_case and t
 ```c
 YEXE();
 ```
-Finally we have `YEXE("[command]")`, this allows us to execute any command that's already available in yed in our c code, `YEXE`, `yed_plugin_set_command(...)` and event handlers are our bread and butter for plugin writing, while the last one is certainly not necessary, it is better to use it because it helps performance and keep things consistent. 
+Finally we have `YEXE("[command]")`, this allows us to execute any command that's already available in yed in our c code, `YEXE`, `yed_plugin_set_command(...)` and event handlers are our bread and butter for plugin writing, while the last one is certainly not necessary, it is better to use it because it helps performance and keeps things consistent. 
 
 ## Event handlers
