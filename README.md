@@ -99,3 +99,8 @@ YEXE();
 Finally we have `YEXE("[command]")`, this allows us to execute any command that's already available in yed in our c code, `YEXE`, `yed_plugin_set_command(...)` and event handlers are our bread and butter for plugin writing, while the last one is certainly not necessary, it is better to use it because it helps performance and keeps things consistent. 
 
 ## Event handlers
+Event handlers are exactly what the name suggest, they handle, events. :>)
+Take a look at all the available options so you get a better idea. Spoiler: There are a lot.
+[Event handlers](https://github.com/kammerdienerb/yed/blob/master/src/event.h#L5)
+
+We are going to add to our make our own plugin that formats c code. This is the perfect example because you can learn about `yed variables`, `yed_state`, and different functions that yed provides that come in handy when developing or even just using yed.
